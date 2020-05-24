@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>商业贷款</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>435</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="4" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox">
+       <property name="minimum">
+        <double>0.010000000000000</double>
+       </property>
+       <property name="value">
+        <double>5.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>贷款利率：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>贷款总额：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+       <property name="maximum">
+        <double>999999.989999999990687</double>
+       </property>
+       <property name="value">
+        <double>0.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="comboBox_4">
+       <item>
+        <property name="text">
+         <string>25年（300期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>24年（288期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>23年（276期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>22年（264期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>21年（252期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>20年（240期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19年（228期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>18年（216期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>17年（204期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>16年（192期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>15年（180期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>14年（168期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>13年（156期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>12年（144期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11年（132期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10年（120期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9年（108期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8年（96期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>7年（84期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6年（72期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5年（60期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4年（48期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3年（36期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2年（24期）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1年（12期）</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>万</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>贷款类别：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>按揭年数：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>还款方式：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>开始计算</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>%</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>等额本息</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>等额本金</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="comboBox">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>商业贷款</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>公积金贷款</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>组合贷款</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
